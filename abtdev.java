@@ -21,9 +21,10 @@ catch(Exception e)
 {
 System.out.println("Caughted exception is "+e);
 }
-img=new ImageIcon(getClass().getResource("/images/mypic.jpg"));
+img=new ImageIcon(getClass().getResource("abtpic.png"));
 l1=new JLabel(img);
-l2=new JLabel("<HTML>Abhinav is an engineering student studying in Haryana Engineering College, Jagadhri one of the oldest colleges of Haryana established in 1998. He is a CSE student in 3rd year.<BR>He lives in Yamunanagar and did his schooling from Sacred Heart Convent Sr. Sec. School, one of the best schools of Yamunanagar.<BR>He passed his 10th and 12th with 84%. <BR>He has recently completed his Industrial Training in Core Java.</HTML>");
+l2=new JLabel("<HTML>Samridhi is a diligent Bachelor of Technology (B.Tech) student specializing in Computer Science and Engineering (CSE) at JMIT Radaur, a prestigious institution. She is currently in her third year of studies. She began her educational journey at St. Thomas School in Jagadhri, where she consistently achieved an outstanding 93% in both her 10th and 12th-grade examinations.
+<BR>Residing in Yamunanagar, Samridhi's unwavering commitment to her field is evident through her recent completion of Industrial Training in Full Stack Web Development. Her profound passion for technology and web development drives her to excel in her academic pursuits and beyond, as she aspires to make significant contributions to the world of software engineering.</HTML>");
 l1.setBounds(30,30,img.getIconWidth(),img.getIconHeight());
 l2.setBounds(img.getIconWidth()+60,30,320,300);
 add(l1);add(l2);
